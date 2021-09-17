@@ -1,0 +1,13 @@
+.footer {
+  width: 100%;
+  height: 50px;
+  padding: 1rem 0;
+  background-color: #ccc;
+}
+
+.footer div {
+  max-width: 1000px;
+  min-width: 320px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}

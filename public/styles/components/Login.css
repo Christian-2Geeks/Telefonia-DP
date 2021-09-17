@@ -1,0 +1,78 @@
+input {
+  height: 25px;
+  padding: 5px 10px;
+  border: 1px solid #b6b6b3;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button,
+input[type='number'] {
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: textfield;
+  margin: 0;
+}
+
+.login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('http://localhost/MVC/public/images/login.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.login-container {
+  min-width: 320px;
+  min-height: 300px;
+  padding: 44px;
+  background-color: white;
+  border-radius: 25px;
+  color: black;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 50px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  border-bottom: 3px solid black;
+  margin-bottom: 32px;
+  outline: none;
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+::placeholder {
+  color: black;
+}
+
+.btn {
+  height: 50px;
+  margin-bottom: 16px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  background-color: #005feb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-family: 'Muli', sans-serif;
+  outline: none;
+}
